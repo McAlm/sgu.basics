@@ -1,5 +1,4 @@
 package de.commsult.sgu.basics.objects;
 
-public class Car {
-    
+public interface Car extends Vehicle {
 }

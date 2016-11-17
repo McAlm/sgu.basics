@@ -26,9 +26,15 @@ public class BookIndex {
         
         System.out.println("Please enter the second word!");
         String second = scanner.next();
-
-        //ToDo: implement here
+        
+        int dotsNeeded = 30 - first.length() - second.length();
+        
+        System.out.print(first);
+        while (dotsNeeded > 0){
+            System.out.print(".");
+            dotsNeeded--;
+        }
+        System.out.println(second);
         
     }
-
 }
