@@ -13,9 +13,9 @@ class B_TaxProgram
 {
   public static void main (String[] args) 
   {
-    
-    double price;
-    double tax ;
+      
+      double price;
+      double tax ;
 
     System.out.println("Enter the price:");
 
